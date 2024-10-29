@@ -1,0 +1,30 @@
+version = "2024.9.18.1"
+
+#是否启用调试模式
+debug = true
+
+#日志相关
+[log]
+
+#是否保存日志
+store_log = false
+
+#日志文件位置
+log_dir = "log_dir"
+
+
+#http接口绑定（如果有）
+[http_api]
+
+#监听地址
+bind_addr = "0.0.0.0"
+#监听端口
+bind_port = 80
+
+
+
+#高级选项，没事儿别动
+[advanced]
+
+#wsgi服务器处理线程
+waitress_threads = 4
